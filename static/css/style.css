@@ -12,10 +12,12 @@ h1 a, h2 a, h3 a, h4 a,
 h5 a, h6 a                  { text-decoration: none; }
 h1 a:hover, h2 a:hover,
 h3 a:hover, h4 a:hover      { color: #432165; text-decoration: underline; }
-h1.title                    { width: 560px; }
+h1.title                    { width: 760px; }
 h1, h2                      { margin: 10px 0 25px 0; }
-h1                          { font-size: 48px; line-height: 52px; }
+h1                          { font-size: 40px; line-height: 42px; }
 h2                          { font-size: 36px; line-height: 40px; }
+
+div.body p                  { text-align: justify; }
 
 /* layout elements */
 div.container               { width: 740px; margin: 48px auto; padding: 0; }
@@ -100,6 +102,7 @@ div.entry-overview div.date         { float: left; width: 120px; color: #888;
 
 /* other alignment things */
 img.align-center        { margin: 15px auto; display: block; }
+div.body img { margin: 15px auto; display: block; }
 
 /* pagination */
 div.pagination          { margin: 36px 0 0 0; text-align: center; }
