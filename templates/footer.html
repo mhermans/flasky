@@ -1,24 +1,36 @@
 <div class=footer>
-  <p> Powered by <a href="http://pypi.python.org/pypi/pelican/" target="_blank">Pelican</a>.  
-    <a href="https://github.com/fjavieralba/flasky">Theme</a>  by <a href="http://fjavieralba.com">fjavieralba</a>
-  </p> 
-  <p>
+    <div>
+  Powered by <a href="http://pypi.python.org/pypi/pelican/" target="_blank">Pelican</a>.  
+    <a href="https://github.com/fjavieralba/flasky">Theme</a>  by <a href="http://fjavieralba.com">fjavieralba</a>.
+  </div> 
+  <div>
     <div class=social style="font-size: 27px;">
-      <ul>
-        <script language="JavaScript">
-          u = '{{ MAIL_USERNAME }}';
-          s = '{{ MAIL_HOST }}';
-          document.write('<a href=\"mailto:' + u + '@' + s + '\" target=\"_blank\">');
-        </script>
-            <li><i class="icon-envelope icon-large"></i> </li>
-        </a>
-        <a href="http://twitter.com/{{ TWITTER_USERNAME }}" target="_blank"> <li> <i class="icon-twitter-sign icon-large"> </li></i> </a>
-        <!--a href="{{ LINKEDIN_URL }}"><li><i class="icon-linkedin-sign icon-large" ></i></li></a-->
-        <a href="{{ GITHUB_URL }}" target="_blank"> <li> <i class="icon-github-sign icon-large"></i> </li> </a>
-        <a href="{{ FEED_ATOML }}/feeds/all.atom.xml" rel="alternate" title="Recent Blog Posts"><li> <i class="icon-rss icon-large"></i> </li></a>
-      </ul>
+        <span class="social-item">
+            <a href="mailto:maarten.hermans@gmail.com">
+                <i class="icon-envelope icon-large"></i>
+            </a>
+        </span>
+
+        <span class="social-item">
+            <a href="http://twitter.com/{{ TWITTER_USERNAME }}" target="_blank">
+                <i class="icon-twitter-sign icon-large"></i>
+            </a>
+        </span>
+
+        <span class="social-item">
+            <a href="{{ GITHUB_URL }}" target="_blank"> 
+                <i class="icon-github-sign icon-large"></i>
+            </a>
+        </span>
+
+        <span class="social-item">
+            <a href="{{ FEED_ATOML }}/feeds/all.atom.xml" rel="alternate" title="Recent Blog Posts">
+                <i class="icon-rss icon-large"></i>
+            </a>
+        </span>
+
     </div>
-  </p>
+  </div>
 
   <!-- Piwik -->
   <script type="text/javascript">
